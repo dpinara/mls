@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    <link rel="stylesheet" href="C:\projects\mls-c01\bootstrap-4.0.0\dist\css\bootstrap.min.css">
+    <script src="C:\projects\mls-c01\bootstrap-4.0.0\js\tests\vendor\jquery-1.9.1.min.js"></script>
+    <script src="C:\projects\mls-c01\bootstrap-4.0.0\dist\js\bootstrap.min.js"></script>
+-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class=".container-fluid">
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Athena</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                Athena uses schema-on-read technology, which means that your table definitions applied to your data in S3 when queries are being executed Federated query in Athena allows you to run SQL queries across variety of relational, non-relational, and custom data sources. You get a unified way to run SQL queries across various data stores.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Athena SQL queries can invoke ML models deployed on Amazon SageMaker. How it can not use other services such as Comprehend, Forecasting or Models deployed on my own EC2 cluster. Athena offers ML inference (prediction) capabilities wrapped by a SQL interface. You can also call an Athena user-defined function (UDF) to invoke pre- or post-processing logic on your result set.You can run inference in the Select phase or in the Filter phase.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                When you create a new table schema in Amazon Athena the schema is stored in the Data Catalog and used when executing queries, but it does not modify your data in S3. Athena uses an approach known as schema-on-read, which allows you to project your schema onto your data at the time you execute a query. This eliminates the need for any data loading or transformation
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                Athena uses Presto when you run SQL queries on Amazon S3. Presto is an open source, in-memory, distributed SQL engine, and can handle complex analysis, including large joins, window functions, and arrays.
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                Amazon Athena allows you to partition your data on any column. Partitions allow you to limit the amount of data each query scans, leading to cost savings and faster performance. You can specify your partitioning scheme using the PARTITIONED BY clause in the CREATE TABLE statement
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                You can use the Athena Query Federation SDK to write your UDF (User defined function). You can upload your function to AWS Lambda and then invoke it in your Athena query.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                Federated query - SQL queries across a variety of data stores(proprietary or custom databases using connectors).Connectors run as AWS Lambda functions in the customer account. Each connector is composed of two Lambda functions specific to a data source – one for metadata, and one for record reading.
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                ++ Hive is a data warehouse infrastructure tool to process structured data in Hadoop. It resides on top of Hadoop to summarize Big Data, and makes querying and analyzing easy.
+
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+
+    <pre>
+
+</pre>
+
+</div>
+
+
+<div class="container-fluid">
+    <h2>Collapsible Panel</h2>
+    <p>Click on the collapsible panel to open and close it.</p>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">Panel Body</div>
+                <div class="panel-footer">Panel Footer</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
